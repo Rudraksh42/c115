@@ -1,0 +1,36 @@
+h3{
+font-size: 50px;
+font-weight: bolder;
+font-family: 'Fruktur', cursive;
+font-family: 'Mochiy Pop One', sans-serif;
+color:#292626;
+text-shadow:5px 5px  rgb(83, 145, 83);
+}
+
+.btn1{
+font-size: 30px;
+font-weight: bold;
+font-family: 'Lobster', cursive;
+color:black;
+background-color: blueviolet;
+border:2px solid black ;
+padding: 4px;
+}
+
+.btn1:hover{
+  background-color: blue;  
+}
+
+canvas{
+animation-name: example;
+animation-duration:4s ;
+animation-iteration-count: infinite;
+border:5px solid black;
+border-radius: 2px;
+margin-top: 120px;
+}
+
+@keyframes example{
+ from{box-shadow: 1px 1px 50px rgb(0, 255, 21) ;}
+ to{box-shadow: 1px 1px 50px rgb(3, 255, 200) ;}
+}
